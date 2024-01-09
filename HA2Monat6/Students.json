@@ -1,0 +1,52 @@
+[
+    {
+        "studentName": "Geek",
+        "studentSurname": "Tech",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "John",
+        "studentSurname": "Doe",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Alice",
+        "studentSurname": "Smith",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Bob",
+        "studentSurname": "Johnson",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Emily",
+        "studentSurname": "Williams",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Michael",
+        "studentSurname": "Brown",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Sophia",
+        "studentSurname": "Jones",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Oliver",
+        "studentSurname": "Davis",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "Emma",
+        "studentSurname": "Miller",
+        "studentImage": "person.fill"
+    },
+    {
+        "studentName": "William",
+        "studentSurname": "Wilson",
+        "studentImage": "person.fill"
+    }
+]
