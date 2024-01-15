@@ -1,0 +1,6 @@
+framework module Pods_HA2Monat6 {
+  umbrella header "Pods-HA2Monat6-umbrella.h"
+
+  export *
+  module * { export * }
+}

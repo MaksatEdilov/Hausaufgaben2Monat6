@@ -33,7 +33,7 @@ class StudentViewController: UIViewController {
                     collectionView.reloadData()
                 } catch {
                     print("Error parsing JSON: \(error.localizedDescription)")
-                    print(error)
+                    print("Hello")
                 }
             }
         }
