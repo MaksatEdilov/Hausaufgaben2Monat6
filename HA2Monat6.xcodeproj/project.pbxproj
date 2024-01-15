@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745A32B9308596BE2903A3E8 /* Pods_HA2Monat6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D346171035281937020B9093 /* Pods_HA2Monat6.framework */; };
 		7B88D45C2B4D08740032D0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88D45B2B4D08740032D0BB /* AppDelegate.swift */; };
 		7B88D45E2B4D08740032D0BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88D45D2B4D08740032D0BB /* SceneDelegate.swift */; };
 		7B88D4652B4D08760032D0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B88D4642B4D08760032D0BB /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C6A654C03795D56A8A95599 /* Pods-HA2Monat6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA2Monat6.debug.xcconfig"; path = "Target Support Files/Pods-HA2Monat6/Pods-HA2Monat6.debug.xcconfig"; sourceTree = "<group>"; };
 		7B88D4582B4D08740032D0BB /* HA2Monat6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HA2Monat6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88D45B2B4D08740032D0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B88D45D2B4D08740032D0BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		7B88D4712B4D099A0032D0BB /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		7B88D4732B4D0A6C0032D0BB /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		7B88D4752B4D10BD0032D0BB /* Students.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Students.json; sourceTree = "<group>"; };
+		D1FEF65B31FD3B67C1F6A6D0 /* Pods-HA2Monat6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HA2Monat6.release.xcconfig"; path = "Target Support Files/Pods-HA2Monat6/Pods-HA2Monat6.release.xcconfig"; sourceTree = "<group>"; };
+		D346171035281937020B9093 /* Pods_HA2Monat6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HA2Monat6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745A32B9308596BE2903A3E8 /* Pods_HA2Monat6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DD1C9CEEADA8271E59F76F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D346171035281937020B9093 /* Pods_HA2Monat6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		467DE6179EE17DC709A5E128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C6A654C03795D56A8A95599 /* Pods-HA2Monat6.debug.xcconfig */,
+				D1FEF65B31FD3B67C1F6A6D0 /* Pods-HA2Monat6.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7B88D44F2B4D08740032D0BB = {
 			isa = PBXGroup;
 			children = (
 				7B88D45A2B4D08740032D0BB /* HA2Monat6 */,
 				7B88D4592B4D08740032D0BB /* Products */,
+				467DE6179EE17DC709A5E128 /* Pods */,
+				3DD1C9CEEADA8271E59F76F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B88D46C2B4D08760032D0BB /* Build configuration list for PBXNativeTarget "HA2Monat6" */;
 			buildPhases = (
+				59830144AADE3B28F65AD2A0 /* [CP] Check Pods Manifest.lock */,
 				7B88D4542B4D08740032D0BB /* Sources */,
 				7B88D4552B4D08740032D0BB /* Frameworks */,
 				7B88D4562B4D08740032D0BB /* Resources */,
+				2C0673CE2DFA19964AFC70C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +165,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C0673CE2DFA19964AFC70C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HA2Monat6/Pods-HA2Monat6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HA2Monat6/Pods-HA2Monat6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HA2Monat6/Pods-HA2Monat6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59830144AADE3B28F65AD2A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HA2Monat6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B88D4542B4D08740032D0BB /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		7B88D46D2B4D08760032D0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6A654C03795D56A8A95599 /* Pods-HA2Monat6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -308,6 +378,7 @@
 		};
 		7B88D46E2B4D08760032D0BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FEF65B31FD3B67C1F6A6D0 /* Pods-HA2Monat6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

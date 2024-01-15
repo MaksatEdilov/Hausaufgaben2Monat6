@@ -32,18 +32,15 @@ class StudentCollectionViewCell: UICollectionViewCell {
         addSubview(studentSurnameLabel)
         
         NSLayoutConstraint.activate([
-            // Constraints для studentImageView
             studentImageView.topAnchor.constraint(equalTo: topAnchor, constant: 10),
             studentImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10),
             studentImageView.widthAnchor.constraint(equalToConstant: 80),
             studentImageView.heightAnchor.constraint(equalToConstant: 80),
             
-            // Constraints для studentNameLabel
             studentNameLabel.topAnchor.constraint(equalTo: studentImageView.bottomAnchor, constant: 8),
             studentNameLabel.leadingAnchor.constraint(equalTo: studentImageView.leadingAnchor),
             studentNameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
             
-            // Constraints для studentSurnameLabel
             studentSurnameLabel.topAnchor.constraint(equalTo: studentNameLabel.bottomAnchor, constant: 4),
             studentSurnameLabel.leadingAnchor.constraint(equalTo: studentImageView.leadingAnchor),
             studentSurnameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10),
